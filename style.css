@@ -161,9 +161,13 @@
   font-weight: bold;
   font-size: 12px;
   width: 100%;
+  display: block;
+  text-align: center;
   margin-top: 10px;
   border: none;
+  text-decoration: none;
   border-radius: 15px;
+  color: black;
   box-shadow: 3px 3px 3px rgba(89, 77, 78, 0.5);
   transition: 0.1s;
 }
