@@ -1,0 +1,212 @@
+/* resetting rules */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bai Jamjuree", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* nav sections */
+.navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 4px 8px 5px;
+}
+.navbar {
+  border-radius: 15px;
+  border: 1px solid #c1bdbd8d;
+  padding: 10px;
+  margin: 10px 5px 20px 5px;
+  background-color: #eeeeef;
+  box-shadow: 9px 15px 9px rgba(89, 77, 78, 0.5);
+  font: 15px bold;
+}
+.navbar-nav {
+  margin: 0 auto;
+  font-weight: 500;
+}
+.navbar-toggler {
+  background-color: #c21f1f;
+  padding: 3px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 7px 5px 5px rgb(89, 77, 78);
+}
+.btn {
+  border-radius: 10px;
+  background-color: #c21f1f;
+  color: white;
+  box-shadow: 3px 3px 3px rgb(89, 77, 78);
+  transition: 0.3s;
+}
+@media screen and (min-width: 1024px) {
+  .nav-link {
+    border: 1px solid #c1bdbd8d;
+    border-radius: 10px;
+    width: 90px;
+    text-align: center;
+    box-shadow: 7px 5px 5px rgb(89, 77, 78);
+    transition: all 0.8s;
+  }
+  .nav-link:hover {
+    background-color: #504f4e;
+    color: whitesmoke;
+    box-shadow: 30px 6px 5px;
+    transform: scale(1);
+  }
+}
+
+/* carousel slides */
+.carousel {
+  margin: 30px 5px;
+  height: 450px;
+  border-radius: 15px;
+  border: 1px solid #c1bdbd8d;
+  box-shadow: 9px 15px 9px rgba(89, 77, 78, 0.5);
+}
+.carousel-inner,
+.carousel-item img {
+  border-radius: 15px;
+  height: 450px;
+  width: 100%;
+}
+.carousel-caption {
+  background-color: #78767674;
+  color: whitesmoke;
+  text-shadow: 1px 1px 9px #c21f1f;
+}
+
+/* <!-- video & categories  section  -->*/
+.ourcategories {
+  margin: 30px 5px;
+  padding: 30px;
+  border-radius: 15px;
+  background-color: #eeeeef;
+  border: 1px solid #c1bdbd8d;
+  box-shadow: 9px 15px 9px rgba(89, 77, 78, 0.5);
+}
+/* video  */
+.vdcontiner {
+  box-shadow: 9px 15px 9px rgba(126, 126, 126, 0.5);
+  background-color: black;
+  border-radius: 15px;
+}
+.vdcontiner video {
+  border-radius: 15px;
+  padding: 10px;
+  background-color: black;
+}
+/* categories */
+.categories-title {
+  text-align: center;
+  padding: 10px;
+  text-decoration: underline;
+}
+.categories-card {
+  text-align: center;
+}
+.categories-text {
+  margin: 15px;
+}
+.categories-btn {
+  padding: 10px;
+  margin: 0 auto;
+  width: 200px;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px rgba(89, 77, 78, 0.5);
+  text-decoration: none;
+  color: black;
+  display: block;
+  transition: 0.1s;
+}
+
+/* offer section */
+.offers-info {
+  margin: 30px 5px;
+  padding: 30px;
+  border-radius: 15px;
+  background-color: #eeeeef;
+  border: 1px solid #c1bdbd8d;
+  box-shadow: 9px 15px 9px rgba(89, 77, 78, 0.5);
+}
+.offer-title {
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.img-fluid {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  box-shadow: 10px 10px 9px rgba(89, 77, 78, 0.5);
+}
+.card-title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+.card-text {
+  line-height: 1.8rem;
+  text-align: start;
+}
+.card-btn {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 12px;
+  width: 100%;
+  margin-top: 10px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px rgba(89, 77, 78, 0.5);
+  transition: 0.1s;
+}
+.card-btn:hover,
+.categories-btn:hover,
+.btn:hover {
+  box-shadow: 1px 1px 1px rgba(89, 77, 78, 0.5);
+}
+@media screen and (max-width: 426px) {
+  .img-fluid {
+    display: none;
+  }
+  .categories-card img {
+    display: inline-block;
+    margin: 20px auto;
+  }
+}
+
+/* footer section */
+.footer-info {
+  border-radius: 15px;
+  border: 1px solid #c1bdbd8d;
+  background-color: #eeeeef;
+  box-shadow: 9px 15px 9px rgba(89, 77, 78, 0.5);
+  margin: 30px 0;
+  padding: 30px;
+}
+.footer-title {
+  margin-bottom: 20px;
+  text-decoration: underline;
+  text-align: center;
+}
+ul li a,
+li {
+  text-decoration: none;
+  color: black;
+  list-style-type: none;
+  line-height: 1.8rem;
+}
+.footer-copytext {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.social-icons a {
+  color: black;
+  margin-left: 30px;
+  font-size: large;
+}
