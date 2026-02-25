@@ -58,6 +58,8 @@
   }
 }
 
+/* HOME PAGE CSS */
+
 /* carousel slides */
 .carousel {
   margin: 30px 5px;
@@ -178,6 +180,55 @@
     display: inline-block;
     margin: 20px auto;
   }
+}
+
+/* LOGIN FORM CSS */
+
+.login-form {
+  margin: 30px 5px;
+  padding: 30px;
+  font-size: 1.2rem;
+  border-radius: 15px;
+  background-color: #eeeeef;
+  border: 1px solid #c1bdbd8d;
+  box-shadow: 9px 15px 9px rgba(89, 77, 78, 0.5);
+  background-image: url(/images/background-coffeebean-img.webp);
+  background-position: center;
+  background-size: contain;
+}
+.login-title {
+  margin: 0px auto;
+  text-align: center;
+  width: 300px;
+}
+.login-card {
+  margin: 20px 20%;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #eeeeef;
+  border: 1px solid #c1bdbd8d;
+  box-shadow: 4px 8px 9px rgba(89, 77, 78, 0.5);
+}
+.login-user {
+  padding: 20px;
+  margin: 0 30px;
+}
+.login-forgotpw {
+  margin: 20px auto;
+  text-align: center;
+}
+.sign-in-btn {
+  padding: 10px;
+  margin: 10px auto;
+  width: 100%;
+  border-radius: 15px;
+  display: block;
+  border: none;
+  box-shadow: 3px 3px 3px rgba(89, 77, 78, 0.5);
+  transition: 0.1s;
+}
+.sign-in-btn:hover {
+  box-shadow: 1px 1px 1px rgba(89, 77, 78, 0.5);
 }
 
 /* footer section */
