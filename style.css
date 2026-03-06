@@ -176,20 +176,11 @@
 .btn:hover {
   box-shadow: 1px 1px 1px rgba(89, 77, 78, 0.5);
 }
-@media screen and (max-width: 426px) {
-  .img-fluid {
-    display: none;
-  }
-  .categories-card img {
-    display: inline-block;
-    margin: 20px auto;
-  }
-}
 
 /* LOGIN FORM CSS */
 
 .login-form {
-  margin: 30px 5px;
+  margin: 30px 0px;
   padding: 30px;
   font-size: 1.2rem;
   border-radius: 15px;
@@ -198,24 +189,29 @@
   box-shadow: 9px 15px 9px rgba(89, 77, 78, 0.5);
   background-image: url(/images/background-coffeebean-img.webp);
   background-position: center;
+  background-repeat: repeat;
   background-size: contain;
 }
 .login-title {
   margin: 0px auto;
   text-align: center;
-  width: 300px;
 }
 .login-card {
-  margin: 20px 20%;
+  margin: 20px auto;
+  width: 50vw;
   border-radius: 10px;
   padding: 10px;
-  background-color: #eeeeef;
+  background-color: #eeeeef94;
+  backdrop-filter: blur(10px);
   border: 1px solid #c1bdbd8d;
   box-shadow: 4px 8px 9px rgba(89, 77, 78, 0.5);
 }
 .login-user {
   padding: 20px;
   margin: 0 30px;
+}
+.form-control {
+  height: 40px;
 }
 .login-forgotpw {
   margin: 20px auto;
@@ -264,4 +260,26 @@ li {
   color: black;
   margin-left: 30px;
   font-size: large;
+}
+
+@media screen and (max-width: 426px) {
+  /* home.html */
+  .img-fluid {
+    display: none;
+  }
+  .categories-card img {
+    display: inline-block;
+    margin: 20px auto;
+  }
+  /* login.html */
+  .login-form {
+    background-image: none;
+    text-align: center;
+  }
+  .login-card {
+    width: fit-content;
+  }
+  .login-user {
+    text-align: left;
+  }
 }
