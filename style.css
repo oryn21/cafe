@@ -384,6 +384,11 @@ li {
     display: inline-block;
     margin: 20px auto;
   }
+  /* About.html */
+  .cardimg-2,
+  .cardimg {
+    display: none;
+  }
   /* login.html */
   .login-form {
     background-image: none;
