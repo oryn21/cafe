@@ -250,10 +250,10 @@ button {
 /* Bean.html CSS */
 .bean-img {
   position: absolute;
-  top: -23%;
-  left: -15%;
+  top: -70px;
+  left: -6px;
   margin-left: -5%;
-  width: 220px;
+  width: 160px;
   height: 130px;
 }
 
