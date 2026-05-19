@@ -7,7 +7,7 @@
   scroll-behavior: smooth;
 }
 body {
-  /* background-image: url(/images/bgbg.webp); */
+  background-image: url(/images/bgbg.webp);
   background-color: #997c60;
 }
 /* nav sections */
@@ -190,17 +190,16 @@ body {
 
 .menucardform {
   margin: 10px;
-  height: fit-content;
-  padding: 20px;
 }
 .menucard {
   background: #89868642;
   backdrop-filter: blur(10px);
-  height: 100%;
+  height: fit-content;
   box-sizing: border-box;
   border-radius: 15px;
   border: 1px solid #c1bdbd8d;
   box-shadow: 9px 15px 9px rgba(89, 77, 78, 0.5);
+  margin-bottom: 50px;
 }
 .card-img {
   position: absolute;
@@ -218,8 +217,8 @@ body {
 .menucard-text {
   text-align: left;
   padding: 10px;
-  margin-top: 35px;
-  height: 100%;
+  margin: 35px 0 -10px 0;
+  height: 80px;
   overflow: hidden;
 }
 .menucard-price {
@@ -227,7 +226,6 @@ body {
 }
 .menubtn {
   text-align: center;
-  margin-top: -20px;
 }
 .menucard-btn {
   text-decoration: none;
@@ -344,7 +342,7 @@ th {
 /* footer section */
 .bgfoundation {
   margin: 30px auto;
-  padding: 30px;
+  padding: 20px;
   border-radius: 15px;
   border: 1px solid #c1bdbd8d;
   box-shadow: 9px 15px 9px rgba(89, 77, 78, 0.5);
